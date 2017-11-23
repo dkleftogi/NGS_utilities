@@ -59,3 +59,7 @@ sam2Flat.py : Read a bam file, convert it to sam and then read the sam and trans
               that this program is not a variant caller, because for the time being does not consider quality filtering  
               criteria. However, it can be used for a scanning quickly all positons that differ from the reference. 
 
+countBedPositions.py :  Read a bed file that has at least 3 columns in the format chrom TAB start TAB end 
+						and compute the total number of genomic positions included, the number of distinct chromosomes and
+						the number of intervals. It is a simple utility for processing amplicon-based NGS data from different 
+						panels.
