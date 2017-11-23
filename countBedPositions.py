@@ -112,6 +112,8 @@ def countPositions(bedFile):
         countAmplicons=0
         #store the chromosome names
         aList=[]
+        #store the uniq genomic positions: This is helpful since some amplicons frequently overlap
+        posList=[]
         for eachLine in fileIN:
             line = eachLine.rstrip('\n')
             tmp=line.split("\t")
@@ -121,9 +123,11 @@ def countPositions(bedFile):
             countAmplicons=countAmplicons+1
             aList.append(chrom)
             for i in range(startPos,endPos+1):
+                key=chrom+'_'+str(i)
+                posList.append(key)
                 countPos=countPos+1
         countChrom=len(list(set(aList)))
-        myStr='Chromosomes:\t'+str(countChrom)+'\tGenomic_Positions:\t'+str(countPos)+'\tAmplicons:\t'+str(countAmplicons)
+        myStr='Chromosomes:\t'+str(countChrom)+'\tGenomic_Positions:\t'+str(countPos)+'\tUniq_Genomic_Positions:\t'+str(len(list(set(posList))))+'\tAmplicons:\t'+str(countAmplicons)
         return myStr
     else:
         ts = time.time()
