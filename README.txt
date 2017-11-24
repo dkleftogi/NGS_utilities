@@ -63,3 +63,9 @@ countBedPositions.py :  Read a bed file that has at least 3 columns in the forma
 						and compute the total number of genomic positions included, the number of distinct chromosomes and
 						the number of intervals. It is a simple utility for processing amplicon-based NGS data from different 
 						panels.
+
+vcf2Bed.py : Read a vcf file (preferably from Platypus variant caller), select the SNPs that have specific FILTERS and 
+			 write the output in a bed-like format (chromosome TAB position). Please note that frequently in cancer genomic
+			 projects we use matched tumour-normal samples to call the variants and thus, after the FORMAT field in the VCF are 
+			 more than one records. The current version of this program does not handle this case. It assumes only one sample per vcf.
+			 This has to be implemented in the future.
