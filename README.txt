@@ -53,30 +53,10 @@ You are free to modify, extend or distribute this code, as long as this copyrigh
 Programs Implemented so far
 ====================================================================================================
 
-sam2Flat.py : Read a bam file, convert it to sam and then read the sam and transform it to a flat file 
-			  that interprets the CIGAR for every position. The program also compares each base with 
-			  the reference base and reports flag YES or NO if the position is equal or different from the reference.
-			  Please note that this program is not a variant caller, because for the time being does not consider quality 
-			  filtering criteria. However, it can be used for a scanning quickly all positons that differ from the reference. 
-
-countBedPositions.py :  Read a bed file that has at least 3 columns in the format chrom TAB start TAB end 
-						and compute the total number of genomic positions included, the number of distinct chromosomes and
-						the number of intervals. It is a simple utility for processing amplicon-based NGS data from different 
-						panels.
-
-vcf2Bed.py : Read a vcf file (preferably from Platypus variant caller), select the SNPs that have specific FILTERS and 
-			 write the output in a bed-like format (chromosome TAB position). Please note that frequently in cancer genomic
-			 projects we use matched tumour-normal samples to call the variants and thus, after the FORMAT field in the VCF 
-			 are more than one records. The current version of this program does not handle this case. It assumes only one 
-			 sample per vcf.This has to be implemented in the future.
-
-insertSizeAnalysisSingle : Read a bam file and a genomic interval of interest in the forma chrom:startPos-endPos and
-                           compute the number of reads in the interval (default quality 10), the number of paired reads,
-                           the number of non paired reads (seperate fields for those mapped in the same chromosome and
-                           those mapped in different chromosomes) and also the distribution of template size (TLEN field)
-                           for the paired reads and the non paired reads that mapped to the same chromosome. The distribution
-                           of the TLEN is separeted by : whereas the file is TAB separated with header.
-
+sam2Flat.py 
+countBedPositions.py 
+vcf2Bed.py 
+insertSizeAnalysisSingle.py
 
 
 
