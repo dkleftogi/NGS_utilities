@@ -57,6 +57,6 @@ sam2Flat.py
 countBedPositions.py 
 vcf2Bed.py 
 insertSizeAnalysisSingle.py
-
+filterVCF.py : Report somatic and germline variants based on certain criteria
 
 
