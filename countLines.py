@@ -123,7 +123,7 @@ def myMain():
         printUsage()
     else:
         print('************************************************************************************************************************************\n')
-        print('\t\t\t\t\countLines.py: Count the line of a file in gz format \n')
+        print('\t\t\t\tcountLines.py: Count the line of a file in gz format \n')
         print('\t\t\t\t\t\t\tCEC Bioinformatics Team\n')
         print('\t\t\t\tCopyright 2017 ICR -- Dimitrios Kleftogiannis -- dimitrios.kleftogiannis@icr.ac.uk\n')
         #parse the first input arguments 
