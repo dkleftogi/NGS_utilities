@@ -58,5 +58,5 @@ countBedPositions.py
 vcf2Bed.py 
 insertSizeAnalysisSingle.py
 filterVCF.py : Report somatic and germline variants based on certain criteria
-
+countLines : Count the lines in a gziped file, suitable for fastq 
 
