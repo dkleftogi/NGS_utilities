@@ -23,8 +23,6 @@ BEGIN COPYRIGHT NOTICE
 
      Published reports of research using this code (or a modified version) should cite the 
      relevant article of this program.
-
-     The idea is adapted from Sam2Tsv implementation in Java from http://lindenb.github.io/jvarkit/Sam2Tsv.html
   
      Comments and bug reports are welcome.
        
@@ -37,7 +35,8 @@ BEGIN COPYRIGHT NOTICE
 END COPYRIGHT NOTICE
  
 UTILITY
-   This program takes as input a bam file and generates a typical sam file as well as a Flat file that interprets the CIGAR per genomic position.
+   This program takes as input a VCF file in gz format with one normal and more than tumour files. The normal file name is given by the user.
+   The program identifies somatic and germline variants based on certain criteria.
 
 
 INPUT ARGUMENTS
