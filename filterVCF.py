@@ -125,7 +125,7 @@ def printUsage():
 #NV>=3
 #AF>0
 
-#we also condider specifi filters returned by Platypus: PASS, alleleBias, Q20 , QD , SC, HapScore
+#we also condider specific filters returned by Platypus: PASS, alleleBias, Q20 , QD , SC, HapScore
 
 #A limitation of the code is the FORMAT field that we assume always GT:GL:GOF:GQ:NR:NV as reported by platypus
 #This has to be changed in the future

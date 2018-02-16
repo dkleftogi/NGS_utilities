@@ -59,4 +59,4 @@ vcf2Bed.py
 insertSizeAnalysisSingle.py
 filterVCF.py : Report somatic and germline variants based on certain criteria
 countLines : Count the lines in a gziped file, suitable for fastq 
-
+findGermline.py : Find the fields that correspond to the germline sample
