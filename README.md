@@ -1,9 +1,8 @@
 # Next Generation Sequencing Utilities
 
-This is a collection of programs for processing NGS data
 
 
-## Dependencies and System Requirements
+### Dependencies and System Requirements
 
 All implementation are written in  Python 2. 
 
@@ -24,7 +23,7 @@ You might need to add samtools in your path so after you intall SAMtools you mig
 PATH=$PATH:/your/path/to/Samtools
 
 
-## Contact Information: Dr. Dimitrios Kleftogiannis 
+### Contact Information: Dr. Dimitrios Kleftogiannis 
 
 Centre for Evolution and Cancer -- Bioinformatics Team -- The Institute of Cancer Research (ICR)  
        			
@@ -44,7 +43,7 @@ I would also appreciate hearing about how you used this code, improvements that 
 You are free to modify, extend or distribute this code, as long as this copyright notice is included whole and unchanged. 
      
 
-### Programs Implemented: I add utilities that I find interesting
+### Programs Implemented
 
 ```
 sam2Flat.py
