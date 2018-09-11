@@ -28,7 +28,7 @@ PATH=$PATH:/your/path/to/Samtools
 
 Centre for Evolution and Cancer -- Bioinformatics Team -- The Institute of Cancer Research (ICR)  
        			
-							Copyright 2018 -- ICR -- www.icr.ac.uk
+						Copyright 2018 -- ICR -- www.icr.ac.uk
 
 Licensed under the Educational Community License, Version 2.0 (the "License") 
 You may not use this file except in compliance with the License. You may obtain a copy of the License at
