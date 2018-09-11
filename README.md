@@ -1,15 +1,11 @@
-Next Generation Sequencing Utilities
-====================================================================================================
+# Next Generation Sequencing Utilities
 
-Collection of programs for processing NGS data
-
-			[ Always Under developemnt ]
+This is a collection of programs for processing NGS data
 
 
-Dependencies and System Requirements
-====================================================================================================
+## Dependencies and System Requirements
 
-All implementation are written in  Python 2.
+All implementation are written in  Python 2. 
 
 The Python compiler used for development is the Python Python 2.7.10 (default, Oct 23 2015, 19:19:21)
 
@@ -28,18 +24,16 @@ You might need to add samtools in your path so after you intall SAMtools you mig
 PATH=$PATH:/your/path/to/Samtools
 
 
-Contact Information
-====================================================================================================
-CEC Bioinformatics 
+## Contact Information: Dr. Dimitrios Kleftogiannis 
+
+Centre for Evolution and Cancer -- Bioinformatics Team -- The Institute of Cancer Research (ICR)  
        			
-Copyright 2017 -- ICR -- www.icr.ac.uk
+							Copyright 2018 -- ICR -- www.icr.ac.uk
 
 Licensed under the Educational Community License, Version 2.0 (the "License") 
 You may not use this file except in compliance with the License. You may obtain a copy of the License at
 
 https://opensource.org/licenses/ECL-2.0
-
-Code Developer: Dimitrios Kleftogiannis 
 
 Comments and bug reports are welcome.
        
@@ -50,13 +44,33 @@ I would also appreciate hearing about how you used this code, improvements that 
 You are free to modify, extend or distribute this code, as long as this copyright notice is included whole and unchanged. 
      
 
-Programs Implemented so far
-====================================================================================================
+### Programs Implemented: I add utilities that I find interesting
 
-sam2Flat.py 
+```
+sam2Flat.py
+```
+
+```
 countBedPositions.py 
+```
+
+```
 vcf2Bed.py 
+```
+
+```
 insertSizeAnalysisSingle.py
+```
+
+```
 filterVCF.py : Report somatic and germline variants based on certain criteria
+
+```
+
+```
 countLines : Count the lines in a gziped file, suitable for fastq 
+```
+
+```
 findGermline.py : Find the fields that correspond to the germline sample
+```
